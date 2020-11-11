@@ -42,6 +42,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    @Suppress("SpellCheckingInspection")
     private fun fillListWithData() {
         // from https://en.wikipedia.org/wiki/List_of_The_Simpsons_characters
         if (characterList.size == 0) {
